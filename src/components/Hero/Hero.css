@@ -105,7 +105,7 @@ z-index: 1;
 .right-h>.btn
 {
   position: absolute;
-  right:3rem;top:2rem;color:black;
+  right:3rem;top:2rem;color:rgb(10, 9, 9);
   background:white;
 
 }
@@ -131,7 +131,7 @@ z-index: 1;
 }
 .heart-rate>span:nth-child(3)
 {
-  color: var(--white);
+  color:white;
   font-size: 1.5rem;
 }
 .hero-image

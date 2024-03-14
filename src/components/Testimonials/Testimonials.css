@@ -74,6 +74,7 @@ top: 2rem;
 .arrows>img{
   width: 1.5rem;
   cursor: pointer;
+  margin-left: 10px;
 }
 @media screen and (max-width:768px) 
 {
@@ -108,5 +109,10 @@ align-self: center;
 display: block;
 bottom:0;
 left: 0;
+  }
+  .arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
   }
   }

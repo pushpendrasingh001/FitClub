@@ -11,12 +11,20 @@ import tick from "../../assets/tick.png"
 function Reasons() {
   return (
     <div className='Reasons' id="reasons">
-  <div className="left-r">
-    <img src={image1} alt="missing" />
-   <img src={image2} alt="missing" />
-    <img src={image3} alt="missing" />
-  <img src={image4} alt="missing" />
-  </div>
+   <div class="grid-container">
+        <div class="item1">
+          <img src={image1} alt="missing" height={460} width={220} />
+        </div>
+        <div class="item2">
+          <img src={image2} alt="missing" height={235} width={490} />
+        </div>
+        <div class="item3">
+          <img src={image4} alt="missing" height={210} width={220} />
+        </div>
+        <div class="item4">
+          <img src={image3} alt="missing" height={210} />
+        </div>
+        </div>
  
 
   <div className="right-r">

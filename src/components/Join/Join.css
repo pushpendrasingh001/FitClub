@@ -74,4 +74,7 @@ color:var(--ligthgrayz);
       display: flex;
       justify-self: center;
     }
+    .btn-j {
+      margin-left: -15px;
+    }
   }
