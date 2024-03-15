@@ -20,7 +20,7 @@
 display: flex;
 gap: 4rem;
 }
-.social-links>img{
+.social-links>a>img{
   width: 2rem;
   height: 2rem;
   cursor: pointer;
@@ -46,3 +46,26 @@ height: 12rem;
 filter:blur(200px);
 background:rgb(247, 168, 104);
 }
+
+.developer
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(246, 242, 242);
+  font-weight: bold;
+  animation: slide-left 10s linear infinite;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+
+
+
