@@ -54,7 +54,7 @@ background:rgb(247, 168, 104);
   justify-content: center;
   color: rgb(246, 242, 242);
   font-weight: bold;
-  animation: slide-left 10s linear infinite;
+  animation: slide-left 25s linear infinite;
 }
 @keyframes slide-left {
   0% {
